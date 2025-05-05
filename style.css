@@ -88,3 +88,10 @@ fontby{
     text-align: center;
 }
 
+.INFLUENCIADORAS {
+    transition: 0.8s;
+}
+
+.INFLUENCIADORAS {
+    transform: scale(1.001);
+}
