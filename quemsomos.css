@@ -1,0 +1,26 @@
+.logo{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+div > h3 {
+    text-decoration: underline;
+}
+
+.sobreheader {
+    background-color: #1C2120;
+    height: 15px;
+    color: rgba(255, 255, 255, 0.87);
+    text-align: center; 
+    padding: 0px 0px 11px 0px; 
+}
+
+h3 {
+font-weight: normal;
+}
