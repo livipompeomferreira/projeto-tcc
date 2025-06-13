@@ -2,41 +2,79 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quem Somos</title>
 </head>
 
 <body>
-            <tr>
-    <td colspan="2" align="center"> <img src='./assets/LOGO SITE PNG.png' alt="logo da empresa" width="90px" > </td> 
-            </tr>
-    <table>
-        
-           <tr> <h1>Quem Somos</h1> </tr>
-           <tr>
-                <p> Bem-vinda ao seu novo espaço de beleza! Aqui você encontra os produtos queridinhos das influenciadoras mais badaladas do momento tudo original, selecionado com carinho e pronto pra realçar sua beleza. Quer saber qual batom aquela influencer usou no último vídeo? Ou o iluminador que virou tendência? Você encontra aqui! </p>
-                <p> Porque se elas usam e amam... você também pode brilhar!  </p>   
-            </tr>
-            <tr> <h1>O que nos diferencia?</h1></tr>      
-            <tr>
-                <p> Produtos Selecionados com Exclusividade: </p>
-                <p> Trabalhamos diretamente com as maquiagens das influenciadoras mais amadas, trazendo para você as coleções mais desejadas e de qualidade comprovada. Cada produto que vendemos é 100% original e cuidadosamente selecionado, garantindo que você tenha acesso apenas ao melhor. </p>
-                
-                <p> Autenticidade e Credibilidade: </p>
-                <p> Somos apaixonados por beleza e nos orgulhamos de oferecer uma curadoria feita com base na confiança e na experiência do mercado. Você pode confiar que os produtos que encontra aqui são os mesmos usados pelas influenciadoras, com total segurança. </p>
-                
-                <p> Entrega Rápida e Segura </p>
-                <p> Sabemos o quanto a pressa é grande para receber o item desejado. Por isso, nossa logística é ágil, garantindo que você receba sua compra de forma rápida e com toda a segurança. </p>
-            </tr>
-            <h2> . </h2>
-
-        <footer>
+    <div class="sobreheader">
+        <h3>10% de desconto na primeira compra com cupom</h3>
+    </div>
+    <header>
+        <section>
             <div>
-                <a>
-                     <img src="./assets/LOGO SITE PNG.png" alt="logo" height="180px" >
-                </a> 
+                <p><img src="assets/ICONES/Lupa.png" alt="" height="30px" style="padding-right: 10px;">
+                       
+        <head>
+            <input id="Carrinho" type="text" placeholder="O que procura?" class="linha"/> 
+            <P id="resposta"></P>
+            <script>
+                function mostrar() {
+                    let valor = document.getElementById("texto") .value;
+                    document.getElementById ("resposta") .innerText = valor;
+                }
+            </script>
+        </head>
+
             </div>
-                <p class="fontby"> BY Makeup.COM  </p>
-        </footer>
+        </section>
+        <section>
+            <div>
+                <img src="./assets/LOGO SITE PNG.png" alt="" height="150px" class="logo">
+            </div>
+        </section>
+        <section>
+            <div>
+                <img src="assets/ICONES/perfil.png" alt="" height="40px" style="padding-top: 40px;">
+                <img src="assets/ICONES/Carrinho.png" alt="" height="40px" style="padding-top: 40px;" >
+                <td> 
+                <td colspan="2" align="right">
+                 <a href="./index.html"> </a> 
+                </td>
+            </div>
+    <main>
+        <section>
+            <div>
+                <h1>Quem Somos</h1>
+                <p>Bem-vinda ao seu novo espaço de beleza! Aqui você encontra os produtos queridinhos das influenciadoras mais badaladas do momento, tudo original, selecionado com carinho e pronto pra realçar sua beleza. Quer saber qual batom aquela influencer usou no último vídeo? Ou o iluminador que virou tendência? Você encontra aqui!</p>
+                <p>Porque se elas usam e amam... você também pode brilhar!</p>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h1>O que nos diferencia?</h1>
+
+                <article>
+                    <h2>Produtos Selecionados com Exclusividade</h2>
+                    <p>Trabalhamos diretamente com as maquiagens das influenciadoras mais amadas, trazendo para você as coleções mais desejadas e de qualidade comprovada. Cada produto que vendemos é 100% original e cuidadosamente selecionado, garantindo que você tenha acesso apenas ao melhor.</p>
+                </article>
+
+                <article>
+                    <h2>Autenticidade e Credibilidade</h2>
+                    <p>Somos apaixonados por beleza e nos orgulhamos de oferecer uma curadoria feita com base na confiança e na experiência do mercado. Você pode confiar que os produtos que encontra aqui são os mesmos usados pelas influenciadoras, com total segurança.</p>
+                </article>
+
+                <article>
+                    <h2>Entrega Rápida e Segura</h2>
+                    <p>Sabemos o quanto a pressa é grande para receber o item desejado. Por isso, nossa logística é ágil, garantindo que você receba sua compra de forma rápida e com toda a segurança.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer style="text-align: center; margin-top: 30px;">
+        <p class="fontby">&copy; 2025 BY Makeup.COM</p>
+    </footer>
 </body>
 </html>
